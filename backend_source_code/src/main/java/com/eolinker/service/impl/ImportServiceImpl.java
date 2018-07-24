@@ -2021,7 +2021,7 @@ public class ImportServiceImpl implements ImportService
 									map.put("paramLimit", "");
 									map.put("paramNotNull", parameter.get("required") != null ? 0 : 1);
 									map.put("paramValueList", new ArrayList<Map<String, Object>>());
-									apiRequestParam.add(map);
+									apiResultParam.add(map);
 								}
 							}
 							Map<String, Object> cache = new HashMap<String, Object>();
